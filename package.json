@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "gatsby": "^3.9.1",
+    "gatsby-source-filesystem": "^3.9.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
@@ -23,9 +24,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/CactusLime/MaisonArts"
+    "url": "https://github.com/CactusLime/MaisonArtspub"
   },
   "bugs": {
-    "url": "https://github.com/CactusLime/MaisonArts/issues"
+    "url": "https://github.com/CactusLime/MaisonArtspub/issues"
   }
 }
