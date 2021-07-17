@@ -23,7 +23,7 @@ export default function Hero() {
         src={images[imageIndex % images.length]}
         style={imageStyle}
       />
-      <div
+      {/* <div
         style={{
           position: "absolute",
           display: "flex",
@@ -38,7 +38,7 @@ export default function Hero() {
         ) : (
           <div />
         )}
-      </div>
+      </div> */}
     </div>
   )
 }
