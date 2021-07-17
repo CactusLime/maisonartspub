@@ -17,9 +17,9 @@ export default function Hero() {
         src={images[imageIndex % images.length]}
         style={imageStyle}
       />
-      <div style={{ position: "absolute", left: "45vw", top: "45vh" }}>
+      <div style={{ position: "absolute", left: "50%", top: "50%" }}>
         {imageIndex % images.length === 2 ? (
-          <a href="www.instagram.com/scholzzy">Scholzzy</a>
+          <a href="https://instagram.com/scholzzy">Scholzzy</a>
         ) : (
           <div />
         )}
