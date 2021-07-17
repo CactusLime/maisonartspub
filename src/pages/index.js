@@ -6,11 +6,11 @@ export default function Home() {
   const [title, setTitle] = useState("hello world")
   return (
     <div>
-      <Title title={title} />
+      {/* <Title title={title} /> */}
       <div style={{ display: "flex", width: "100vw" }}>
         <Hero />
       </div>
-      <input value={title} onChange={e => setTitle(e.target.value)} />
+      {/* <input value={title} onChange={e => setTitle(e.target.value)} /> */}
     </div>
   )
 }

@@ -8,6 +8,7 @@ export default function Hero() {
     maxWidth: "1280px",
     maxHeight: "95vh",
     justifySelf: "center",
+    objectFit: "contain",
   }
   return (
     <img
