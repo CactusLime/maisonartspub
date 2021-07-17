@@ -6,7 +6,7 @@ export default function Home() {
 const [title,setTitle]=useState("hello world")
   return <div>
     <Title title={title} />
-    <Hero />
+    <div style={{display: "flex"}}><Hero /></div>
     <input value={title} onChange={(e)=>setTitle(e.target.value)} /> 
   </div>
 }
