@@ -17,7 +17,16 @@ export default function Hero() {
         src={images[imageIndex % images.length]}
         style={imageStyle}
       />
-      <div style={{ position: "absolute", left: "50%", top: "50%" }}>
+      <div
+        style={{
+          position: "absolute",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          left: "50%",
+          top: "50%",
+        }}
+      >
         {imageIndex % images.length === 2 ? (
           <a href="https://instagram.com/scholzzy">Scholzzy</a>
         ) : (
