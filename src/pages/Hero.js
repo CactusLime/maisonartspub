@@ -11,10 +11,19 @@ export default function Hero() {
     objectFit: "contain",
   }
   return (
-    <img
-      onClick={() => setImageIndex(imageIndex + 1)}
-      src={images[imageIndex % images.length]}
-      style={imageStyle}
-    />
+    <div>
+      <img
+        onClick={() => setImageIndex(imageIndex + 1)}
+        src={images[imageIndex % images.length]}
+        style={imageStyle}
+      />
+      <div style={{ position: "absolute", left: "45vw", top: "45vh" }}>
+        {imageIndex % images.length === 2 ? (
+          <a href="www.instagram.com/scholzzy">Scholzzy</a>
+        ) : (
+          <div />
+        )}
+      </div>
+    </div>
   )
 }
