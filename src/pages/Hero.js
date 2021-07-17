@@ -10,10 +10,8 @@ export default () => {
     justifySelf: "center",
   }
   return (
-    <img
-      onClick={setImageIndex(imageIndex + 1)}
-      src={images[imageIndex % images.length]}
-      style={imageStyle}
-    />
+    <div onClick={setImageIndex(imageIndex + 1)}>
+      <img src={images[imageIndex % images.length]} style={imageStyle} />
+    </div>
   )
 }
