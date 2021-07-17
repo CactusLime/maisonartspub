@@ -4,14 +4,13 @@ export default function Hero() {
   const images = ["/Maison3d.png", "/Maison23d.png", "/Maison33d.png"]
 
   const imageStyle = {
-    width: "95vw",
-    maxWidth: "1280px",
-    maxHeight: "95vh",
+    height: "100%",
+    width: "100%",
     justifySelf: "center",
     objectFit: "contain",
   }
   return (
-    <div>
+    <div style={{ width: "95vw", maxWidth: "1280px", maxHeight: "95vh" }}>
       <img
         onClick={() => setImageIndex(imageIndex + 1)}
         src={images[imageIndex % images.length]}
