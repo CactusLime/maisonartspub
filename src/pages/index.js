@@ -1,5 +1,6 @@
-import React from "react"
+import React, {useState} from "react"
 
 export default function Home() {
-  return <div>Hello world!  I've missed you!!!!</div>
+const [title,setTitle]=useState("hello world")
+  return <div>{title}</div>
 }
