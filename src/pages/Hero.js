@@ -10,7 +10,14 @@ export default function Hero() {
     objectFit: "contain",
   }
   return (
-    <div style={{ width: "95vw", maxWidth: "1280px", maxHeight: "95vh" }}>
+    <div
+      style={{
+        width: "95vw",
+        maxWidth: "1280px",
+        maxHeight: "95vh",
+        position: "relative",
+      }}
+    >
       <img
         onClick={() => setImageIndex(imageIndex + 1)}
         src={images[imageIndex % images.length]}
