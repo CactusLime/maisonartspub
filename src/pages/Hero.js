@@ -9,15 +9,16 @@ export default function Hero() {
     justifySelf: "center",
     objectFit: "contain",
   }
+
+  const imageDivStyle = {
+    width: "95vw",
+    maxWidth: "1280px",
+    maxHeight: "95vh",
+    position: "relative",
+  }
+
   return (
-    <div
-      style={{
-        width: "95vw",
-        maxWidth: "1280px",
-        maxHeight: "95vh",
-        position: "relative",
-      }}
-    >
+    <div style={imageDivStyle}>
       <img
         onClick={() => setImageIndex(imageIndex + 1)}
         src={images[imageIndex % images.length]}

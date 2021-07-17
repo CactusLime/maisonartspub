@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       {/* <Title title={title} /> */}
-      <div style={{ display: "flex", width: "100vw" }}>
+      <div style={{ display: "flex", width: "100vw", overflow: "hidden" }}>
         <Hero />
       </div>
       {/* <input value={title} onChange={e => setTitle(e.target.value)} /> */}
