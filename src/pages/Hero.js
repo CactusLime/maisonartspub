@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-export default () => {
+export default function Hero() {
   const [imageIndex, setImageIndex] = useState(0)
   const images = ["/Maison3d.png", "/Maison23d.png", "/Maison33d.png"]
 
