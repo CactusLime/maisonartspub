@@ -15,6 +15,16 @@ export default function Hero() {
     maxWidth: "1280px",
     maxHeight: "95vh",
     position: "relative",
+    alignContent: "center",
+  }
+
+  const injectedDivStyle = {
+    position: "absolute",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    left: "50%",
+    top: "50%",
   }
 
   return (
@@ -25,15 +35,7 @@ export default function Hero() {
         style={imageStyle}
       />
       {/* <div
-        style={{
-          position: "absolute",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          left: "50%",
-          top: "50%",
-        }}
-      >
+        style={injectedDivStyle}>
         {imageIndex % images.length === 2 ? (
           <a href="https://instagram.com/scholzzy">Scholzzy</a>
         ) : (
