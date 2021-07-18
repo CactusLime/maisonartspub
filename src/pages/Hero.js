@@ -13,8 +13,8 @@ export default function Hero() {
   const imageDivStyle = {
     width: "95vw",
     maxWidth: "1280px",
-    Height: "95vh",
     position: "relative",
+    height: "95vh",
     alignContent: "center",
   }
 
