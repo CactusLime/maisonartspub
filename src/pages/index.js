@@ -7,6 +7,8 @@ export default function Home() {
   const mainDivStyle = {
     display: "flex",
     width: "100vw",
+    minHeight: "100vh",
+    minHeight: "-webkit-fill-available",
     overflow: "hidden",
     justifyContent: "center",
   }
