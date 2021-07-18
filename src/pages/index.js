@@ -6,9 +6,7 @@ export default function Home() {
   const [title, setTitle] = useState("hello world")
   const mainDivStyle = {
     display: "flex",
-    width: "100vw",
-    minHeight: "100vh",
-    minHeight: "-webkit-fill-available",
+    height: "window.innerHeight",
     overflow: "hidden",
     justifyContent: "center",
   }
