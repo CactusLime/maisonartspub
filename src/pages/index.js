@@ -4,10 +4,17 @@ import Hero from "./Hero"
 
 export default function Home() {
   const [title, setTitle] = useState("hello world")
+  const mainDivStyle = {
+    display: "flex",
+    width: "100vw",
+    overflow: "hidden",
+    justifyContent: "center",
+  }
+
   return (
     <div>
       {/* <Title title={title} /> */}
-      <div style={{ display: "flex", width: "100vw", overflow: "hidden" }}>
+      <div style={mainDivStyle}>
         <Hero />
       </div>
       {/* <input value={title} onChange={e => setTitle(e.target.value)} /> */}
